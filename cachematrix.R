@@ -1,4 +1,12 @@
-## 1st Function on Assignment 2
+## Assignment: Caching the Inverse of a Matrix
+
+## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
+## cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above. 
+## If the inverse has already been calculated (and the matrix has not changed), 
+## then the cachesolve should retrieve the inverse from the cache.
+
+## 1st Function on Assignment 2: 
+## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   ## @x: a square invertible matrix
@@ -23,6 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## 2nd Function on Assignment 2
+## cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above. 
 
 cacheSolve <- function(x, ...) {
   ## @x: output of makeCacheMatrix()
